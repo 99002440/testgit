@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int fact(int n)
 {
     if (n == 0) 
@@ -8,6 +9,6 @@ int fact(int n)
  int main() 
 { 
     int num = 5; 
-    printf("Factorial of %d is %d", num, factorial(num)); 
+   cout<<fact(num);
     return 0; 
 } 
